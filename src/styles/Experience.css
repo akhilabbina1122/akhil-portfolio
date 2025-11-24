@@ -1,0 +1,80 @@
+.experience-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 40px auto 0;
+  padding-left: 30px;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: var(--glass-border);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -36px;
+  top: 20px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  border: 2px solid var(--accent-primary);
+  z-index: 1;
+}
+
+.timeline-content {
+  position: relative;
+}
+
+.timeline-content::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 20px;
+  width: 10px;
+  height: 10px;
+  background: var(--glass-bg); /* Match card bg roughly */
+  transform: rotate(45deg);
+  /* This arrow is tricky with glassmorphism, simplifying to just spacing */
+  display: none; 
+}
+
+.exp-duration {
+  font-size: 0.9rem;
+  color: var(--accent-primary);
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.exp-role {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: var(--text-primary);
+}
+
+.exp-company {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 15px;
+}
+
+.exp-description {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.timeline-item.placeholder .timeline-content {
+  border-style: dashed;
+  opacity: 0.7;
+}
