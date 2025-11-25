@@ -8,8 +8,8 @@ export const portfolioData = {
     tagline: "C & Java Developer · Cloud & Web Enthusiast",
     email: "2100031427cseh@gmail.com",
     location: "Vijayawada, Andhra Pradesh, India",
-    linkedin: "https://www.linkedin.com/in/akhileswar-abbina/", // Placeholder, user can update
-    github: "https://github.com/", // Placeholder
+    linkedin: "https://www.linkedin.com/in/akhil-abbina-b36582242", // Placeholder, user can update
+    github: "https://github.com/", // Placeholnpmder
     objective: "Highly motivated and academically accomplished Computer Science Engineering student seeking opportunities to collaborate with expert teams. I enjoy applying strong analytical and problem-solving skills to build impactful, real-world software solutions, and I am eager to learn and grow in dynamic environments.",
     aboutNarrative: "I'm Abbina Bala Akhileswar, a B.Tech Computer Science Engineering student at KL University with an ongoing CGPA of 9.07. I thrive on solving complex problems, extracting insights from data, and building scalable, user-focused solutions. I enjoy collaborating with teams, learning new technologies, and contributing ideas that drive real impact. I am particularly interested in cloud-based systems, web applications, data analytics, and modern software engineering practices, valuing clean code, reliability, and maintainable architecture."
   },
@@ -28,17 +28,19 @@ export const portfolioData = {
       category: "Programming",
       items: [
         { name: "C", level: "Proficient" },
-        { name: "Java", level: "Proficient" }
+        { name: "Java", level: "Proficient" },
+        { name: "SQL", level: "Intermediate" }
       ]
     },
     {
-      category: "Frontend",
+      category: "Web Development",
       items: [
         { name: "ReactJS", level: "Intermediate" },
         { name: "HTML", level: "Proficient" },
-        { name: "CSS", level: "Proficient" },
-        { name: "JavaScript", level: "Proficient" },
-        { name: "NodeJS", level: "Familiar" }
+        { name: "CSS", level: "Intermediate" },
+        { name: "JavaScript", level: "Intermediate" }
+       
+        
       ]
     },
     {
@@ -53,7 +55,8 @@ export const portfolioData = {
         { name: "Power BI", level: "Intermediate" },
         { name: "MS Office", level: "Proficient" },
         { name: "VS Code", level: "Proficient" },
-        { name: "Eclipse", level: "Proficient" }
+        { name: "Eclipse", level: "Proficient" },
+        { name: "Excel", level: "Proficient" }
       ]
     }
   ],
@@ -91,9 +94,10 @@ export const portfolioData = {
       id: 2,
       title: "Astro Prediction Website",
       description: "Developed an astrology prediction website using JavaScript, CSS, and HTML, emphasizing intuitive user interface design and dynamic interactions.",
-      details: [
+      details: [  
         "Leveraged JavaScript to implement dynamic, client-side logic and interactions.",
-        "Focused on user experience, accessibility, and clean visual presentation."
+        "Focused on user experience, accessibility, and clean visual presentation.",
+        
       ],
       tech: ["HTML", "CSS", "JavaScript", "Frontend"],
       type: "real"
@@ -122,9 +126,9 @@ export const portfolioData = {
     },
     {
       id: 3,
-      name: "Future Certification",
-      issuer: "Coming Soon",
-      description: "Placeholder for upcoming certifications. This will be updated as new credentials are earned."
+      name: "Google Cloud Certified Associate Cloud Engineer",
+      issuer: "Google Cloud",
+      description: "Google Cloud Certified Associate Cloud Engineer with practical experience deploying and managing workloads on GCP. Skilled in provisioning resources, configuring networks, and ensuring secure, scalable cloud operations."
     }
   ],
   education: [
